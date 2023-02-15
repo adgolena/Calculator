@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div id="screen">
+            <div id="box1"></div>
+            <div class="box2"></div>
+        </div>
+        <div class="container">
+            <div class="row1">
+                <button onclick="clearScreen()">Ac</button>
+                <button onclick="eraser()">c</button>
+                <button onclick="Number('%')">%</button>
+                <button onclick="operator('/')">/</button>
+            </div>
+            <div class="row2">
+                <button onclick="Number('7')">7</button>
+                <button onclick="Number('8')">8</button>
+                <button onclick="Number('9')">9</button>
+                <button onclick="operator('x')">x</button>
+            </div>
+            <div class="row3">
+                <button onclick="Number('4')">4</button>
+                <button onclick="Number('5')">5</button>
+                <button onclick="Number('6')">6</button>
+                <button onclick="operator('-')">-</button>
+            </div>
+            <div class="row4">
+                <button onclick="Number('1')">1</button>
+                <button onclick="Number('2')">2</button>
+                <button onclick="Number('3')">3</button>
+                <button onclick="operator('+')">+</button>
+              
+            </div>
+            <div class="row5">
+                <button onclick="Number('0')">0</button>
+                <button onclick="Number('.')">.</button>
+                <button onclick="equater()">=</button>
+            </div>
+            
+        </div>
+    </div>
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
